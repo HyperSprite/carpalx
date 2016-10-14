@@ -16,7 +16,11 @@ function carpalx_pc_qwrkfy       { setxkbmap -v 9 -model pc104 -layout "carpalx(
 function carpalx_pc_qwyrfm       { setxkbmap -v 9 -model pc104 -layout "carpalx(qwyrfm)+carpalx(spce_bksp)+carpalx(swap_lalt_lctl)"; }
 function carpalx_pc_tnwmlc       { setxkbmap -v 9 -model pc104 -layout "carpalx(tnwmlc)+carpalx(spce_bksp)+carpalx(swap_lalt_lctl)"; }
 
-
+# TEX Yoda keyboard with standard US and GB layouts, regular and international
+function carpalx_tex_us_noswp     { setxkbmap -v 9 -model pc104 -layout "yoda(us)"; }
+function carpalx_tex_gb_noswp     { setxkbmap -v 9 -model pc104 -layout "yoda(gb)"; }
+function carpalx_tex_usintl-noswp { setxkbmap -v 9 -model pc104 -layout "yoda(us-intl)"; }
+function carpalx_tex_gbintl-noswp { setxkbmap -v 9 -model pc104 -layout "yoda(gb-intl)"; }
 
 # TEX Yoda keyboard with standard US and GB layouts, regular and international, swap Ctrl with Alt
 function carpalx_tex_us          { setxkbmap -v 9 -model pc104 -layout "yoda(us)+carpalx(spce_bksp)+carpalx(swap_lalt_lctl)"; }
