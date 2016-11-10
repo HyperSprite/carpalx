@@ -7,7 +7,7 @@
 //
 // Shamelessly based on the wonderful work of OEystein Bech "DreymaR" Gadmar
 // See "DreymaR's Big Bag of Keyboard Tricks": http://forum.colemak.com/viewtopic.php?pid=9918
-  
+
 
 // These keys are modified/transposed by holding down the 'extend key' (CapsLock or Menu by default):
 // +-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
@@ -28,10 +28,10 @@
 //                         +---------------------------------------+                       +-------+
 //
 
-  
+
 partial alphanumeric_keys modifier_keys
 xkb_symbols "lv5" {
-  
+
   key.type[group1]="EIGHT_LEVEL_SEMIALPHABETIC"; // Lock affects lv1/5 but not lv3/7
 
   key <TLDE> { symbols[Group1]=[ NoSymbol, NoSymbol, NoSymbol, NoSymbol, Escape,               Escape                ],  actions[Group1]=[ NoAction(), NoAction(), NoAction(), NoAction(), Redirect(key=<ESC> ,clearmods=LevelFive), Redirect(key=<ESC> ,clearmods=LevelFive) ] }; // `~
@@ -95,7 +95,7 @@ xkb_symbols "us" { // "TEX Yoda (US)"
     include "yoda(lv5)"
 
     include "carpalx(caps_switch)"
-    include "carpalx(menu_switch)"
+    // include "carpalx(menu_switch)"
 };
 
 

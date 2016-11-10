@@ -119,3 +119,27 @@ TODO List
 [MINIGURU]: http://www.guru-board.com
 [Unicomp EnduraPro]: http://pckeyboard.com/page/category/EnduraPro
 [CarpalX Research]: http://mkweb.bcgsc.ca/carpalx
+
+```js
+// Pok3r layout to match Yoda keyboard
+// These keys are modified/transposed by holding down the 'extend key' (CapsLock or Menu by default):
+// +-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
+// |~ Esc  |!      |@      |#      |$      |%      |^      |&      |*      |(      |)      |-      |=      | 
+// |` Esc  |1 F1   |2 F2   |3 F3   |4 F4   |5 F5   |6 F6   |7 F7   |8 F8   |9 F9   |0 F10  |  F11  |  F12  |
+// +-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
+// |Tab    |Q      |W      |E      |R      |T      |Y      |U      |I      |O      |P      |{      |}      ||      |
+// |   Caps|  ScrUp|  Up   |  ScrDn|  BkSpc|  Home |  PgUp |  ~    |  Up   |       |  PrScr|[ ScrLk|] Pause|\      |
+// +-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
+// |Fn     |A      |S      |D      |F      |G      |H      |J      |K      |L      |:      |"      |
+// |       |  Left |  Down |  Right|  Del  |  End  |  PgDn |  Left |  Down |  Right|; Ins  |' Menu |
+// +-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
+// |Space  |Z      |X      |C      |V      |B      |N      |M      |<      |>      |?      |
+// |       |  Menu |  Mute | < Vol | Vol > |       |       |       |,      |.      |/      |
+// +-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+-------+
+// |Ctrl   |Super  |Alt    |Space                                          |Alt    |Fn     |Pn     |
+// |       |       |       |                                               |       |       |       |
+// +-------+-------+-------+-----------------------------------------------+-------+-------+-------+
+```
+
+
+
